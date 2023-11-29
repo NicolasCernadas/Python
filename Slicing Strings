@@ -1,0 +1,28 @@
+~Slicing: creating a substring by extrating elements from a string
+          index[] or slice()
+         [star : stop : step]
+ inclusive^ exclusive^ jumps^
+ 
+  ~INDEXING
+  name = "Nicolas Cernadas" // this counts: "012345678910111213141516" or backwards: "-16-15-14-13-12-11-10-9-8-7-6-5-4-3-2-1"
+  first_name = name[0 : 7] // or whats the same: name[: 7] (goes from the biginning to 7)
+  print(first_name): this`ll return "Nicolas"
+
+  last_name = name[8 : 16] // or whats the same: name[8 :] (goes from 8 to the end)
+  print(last_name): this`ll return "Cernadas"
+
+  jumping_name = name[::2] // this is going from the biginning to the end, we can shorten it, ex: name [1 : 7 : 2] (this will begin in 'i', end in ' ' and jump every 2 letters; returns: "ioa"
+  print(jumping_name): this`ll return "NclsCraa"
+
+  reversed_name = name [::-1]
+  print(reversed_name): this`ll return "sadanreC salociN"
+
+  ~SLICING
+  works the same as indexing, but with ',' insted of ':'
+  name = "http://facebook.com.ar"
+  slice = slice(7,-7) // creating a flag for cutting urls, this will work with every secured argentinian page
+  print(name[slice]): this`ll return "facebook"
+
+  name = "http://facebook.com.ar"
+  print(name[slice(7, -7)]): this`ll return "facebook" // works the same way without the flag
+  
