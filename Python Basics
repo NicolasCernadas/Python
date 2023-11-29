@@ -20,15 +20,5 @@
   we can use it like this:
   name = input("whats your name?: ")
   age = int(input("how old are you?: ")): both in this and the next one, we are changing the value of the input to an int or float
-  hight = float(input("how tall are you?: "))
-~ LIBRARY: MATH
-  "Import math" to call
-   a few functions: 
-    print(math.ceil(value)): rounds up
-    print(math.floor(value)): rounds down
-    print(math.sqrt(value)): square root
-    print(round(value))
-    print(abs(value)): absolute value (how far its from 0)
-    print(pow(value, number)): value powered to number
-    print(max/min(value1, value2, value3)): max/min value of a list 
+  hight = float(input("how tall are you?: ")
     
