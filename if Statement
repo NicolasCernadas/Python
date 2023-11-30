@@ -1,1 +1,21 @@
+~IF:
+Not necessary to ad {} or (), it works with indentation.
 
+IF variable <>== condition:
+    ((thing to do))
+
+elif (elseif avb) variable <>== condition:
+    ((thing to do))
+
+...
+
+else:
+    ((thing to do))
+
+//if what we are comparing are memory adresses, we can type:
+IF variable IS/IS NOT variable:
+    ((thing to do))
+
+
+~LOGICAL OPERATORS:
+(check two or more conditions)
