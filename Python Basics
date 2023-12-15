@@ -1,5 +1,7 @@
 ~ print(type(variable name)): returns variable type
 ~ name = "nicolas". // not necessary to specify variable type
+  we can use multiple lines with (""") triple quotation mark: name ="""My name is, //this will return: My name is,
+                                        Nicolas Cernadas"""                                            Nicolas Cernadas
 ~ name, age, male, female = "nicolas", 21, true, false // can create multiple variables in one line, following the order separated by comas (this is called 'Multiple Assignment')
   If they all have the same value: age_1, age_2, age_3 = 21
 ~ name = "nicolas"
