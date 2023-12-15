@@ -1,6 +1,7 @@
 ~ LIBRARY: MATH
   "Import math" to call
-   a few functions: 
+~ We can decide how to call the library when needed with "as", like "import math as m", and now call the functions like that; ex: print (m.floor(value))
+~ a few functions:
     print(math.ceil(value)): rounds up
     print(math.floor(value)): rounds down
     print(math.sqrt(value)): square root
