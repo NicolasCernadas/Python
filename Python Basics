@@ -1,13 +1,16 @@
+Some basic commands:
 ~ print(type(variable name)): returns variable type
 ~ name = "nicolas". // not necessary to specify variable type
   we can use multiple lines with (""") triple quotation mark: name ="""My name is, //this will return: My name is,
-                                        Nicolas Cernadas"""                                            Nicolas Cernadas
+                                                                    Nicolas Cernadas"""                Nicolas Cernadas
 ~ name, age, male, female = "nicolas", 21, true, false // can create multiple variables in one line, following the order separated by comas (this is called 'Multiple Assignment')
   If they all have the same value: age_1, age_2, age_3 = 21
 ~ name = "nicolas"
   age = 21
   print("your name is: " + (name) + ", and your age is: " + str(age))
   This will print: 'Your name is nicolas, and your age is 21' without a problem, we are converting age's type to string and concatenating with "+".
+
+Functions:
 ~ print(len(variable name)): variable length
 ~ print(name.find("character to find"): finds a character within a string
 ~ print(name.capitalize())
@@ -20,10 +23,14 @@
 //ex: name ="Nicolas Cernadas"
       subname =name.replace("Nicolas", "Jorgito")
       print(subname): Jorgito Cernadas
+~ name = "Nicolas Cernadas"
+  splitted = name.split((point to separate))
+  print(splitted) = ["Nicolas", "Cernadas"] //Its a list of strings
 ~ print(name*3): !(we can multiply string variables)!this will return (namenamename)
 ~ input("what is your name?"): users input
   we can use it like this:
   name = input("whats your name?: ")
   age = int(input("how old are you?: ")): both in this and the next one, we are changing the value of the input to an int or float
   hight = float(input("how tall are you?: ")
+
     
