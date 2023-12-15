@@ -17,8 +17,11 @@
 ~ print(name.isalpha()): returns 'true' or 'false' whether or the content are alphabetical character ("abc") !(not spaces, not numbers)!
 ~ print(name.count("character to count"))
 ~ print(name.replace("character to replace", "what to replace it for"))
+//ex: name ="Nicolas Cernadas"
+      subname =name.replace("Nicolas", "Jorgito")
+      print(subname): Jorgito Cernadas
 ~ print(name*3): !(we can multiply string variables)!this will return (namenamename)
-~ input("what is your name?"): users input 
+~ input("what is your name?"): users input
   we can use it like this:
   name = input("whats your name?: ")
   age = int(input("how old are you?: ")): both in this and the next one, we are changing the value of the input to an int or float
